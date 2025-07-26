@@ -1,0 +1,43 @@
+.Template {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.BackgroundImage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.LeftMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.85rem;
+    margin-left: 1.5rem;
+    width: 15rem;
+    height: 35rem;
+}
+
+.Logo {
+    padding-bottom: 2rem;
+    border-bottom: solid #FFFFFF 0.1rem;
+    width: 75%;
+    height: auto;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.85rem 2rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 45rem;
+    height: 30rem;
+}

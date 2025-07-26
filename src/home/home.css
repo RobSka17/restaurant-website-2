@@ -1,0 +1,22 @@
+.TopContent {
+    padding-bottom: 2rem;
+    border-bottom: solid #FFFFFF 0.1rem;
+}
+
+.OpeningHoursSection {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 1rem 0;
+    border-bottom: dotted #FFFFFF 0.2rem;
+}
+
+.OpeningHoursSection .Top {
+    display: flex;
+    flex-direction: row;
+}
+
+.OpeningHoursSection .Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
