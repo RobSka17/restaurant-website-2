@@ -1,11 +1,15 @@
 import '@testing-library/jest-dom'
-import { render, screen, waitFor } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { Template } from './template'
 
 describe('Template', () => {
     it('Renders component', async () => {
-        render(<Template props={{}}/>)
+        render(<Template props={{
+            heading: 'Test Page'
+        }}/>)
         await screen.findByTestId('template')
-        expect(screen.getByTestId('template')).toBeInTheDocument()
+        const template = screen.getByTestId('template')
+        expect(template).toBeInTheDocument()
+        expect(template).toHaveTextContent('Test Page')
     })
 })
