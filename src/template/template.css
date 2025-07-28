@@ -14,17 +14,17 @@
 .LeftMenu {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     align-items: center;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 0.85rem;
     margin-left: 1.5rem;
     width: 15rem;
-    height: 35rem;
 }
 
 .Logo {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     border-bottom: solid #FFFFFF 0.1rem;
     width: 75%;
     height: auto;
@@ -33,11 +33,15 @@
 .MainContent {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 0.85rem 2rem;
+    padding: 2.25rem 2rem;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     width: 45rem;
-    height: 30rem;
+}
+
+.MainContent h2 {
+    margin-top: 0;
 }

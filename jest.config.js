@@ -3,7 +3,7 @@ const config = {
   verbose: true,
   testEnvironment: 'jsdom',
   moduleNameMapper: {
-    "\\.(css|jpg|png)$": "<rootDir>/src/import-mock.js"
+    "\\.(css|jpg|png|svg)$": "<rootDir>/src/import-mock.js"
   }
 };
 
